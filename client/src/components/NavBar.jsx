@@ -1,0 +1,15 @@
+import React from 'react';
+import Profile from './Profile.jsx';
+import Search from './Search.jsx';
+
+const NavBar = () => {
+  return (
+    <div>
+      Navbar!
+      <Search />
+      <Profile />
+    </div>
+  );
+};
+
+export default NavBar;
