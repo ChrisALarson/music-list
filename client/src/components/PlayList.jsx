@@ -5,7 +5,7 @@ const PlayList = ({ plays, addToFavorites, addToPlays }) => {
   return (
     <div>
       Playlist!
-      { plays.map((play, index) => <SongEntry key={index} songId={play} addToFavorites={addToFavorites} addToPlays={addToPlays}/>) }
+      { plays.map((song, index) => <SongEntry key={index} song={song} addToFavorites={addToFavorites} addToPlays={addToPlays}/>) }
     </div>
   );
 };

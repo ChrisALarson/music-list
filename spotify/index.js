@@ -24,10 +24,12 @@ const searchForSong = (songName, callbackToServer) => {
       searchResults.push({
         name: track.name,
         id: track.id,
-        arist: track.artists[0].name,
-        albumName: track.album.name,
+        artist: track.artists[0].name,
+        album: track.album.name,
         albumImageURL: track.album.images[2].url,
-        popularity: track.popularity
+        popularity: track.popularity,
+        explicit: track.explicit,
+        url: track.external_urls.spotify
       });
     });
     callbackToServer(null, searchResults);

@@ -1,10 +1,10 @@
 import React from 'react';
 import SongEntry from './SongEntry.jsx';
 
-const ResultList = () => {
+const ResultList = ({ results, addToFavorites, addToPlays }) => {
   return (
     <div>
-      Results!
+      { results.map((song, index) => <SongEntry key={index} song={song} addToFavorites={addToFavorites} addToPlays={addToPlays} />) }
     </div>
   );
 };
