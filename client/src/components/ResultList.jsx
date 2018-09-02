@@ -5,7 +5,6 @@ const ResultList = () => {
   return (
     <div>
       Results!
-      <SongEntry />
     </div>
   );
 };

@@ -1,0 +1,772 @@
+{
+    "tracks": {
+      "href": "https://api.spotify.com/v1/search?query=the+ringer&type=track&market=US&offset=0&limit=10",
+      "items": [
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+                },
+                "href": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+                "id": "7dGJo4pcD2V6oG8kP0tJRR",
+                "name": "Eminem",
+                "type": "artist",
+                "uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3HNnxK7NgLXbDoxRZxNWiR"
+            },
+            "href": "https://api.spotify.com/v1/albums/3HNnxK7NgLXbDoxRZxNWiR",
+            "id": "3HNnxK7NgLXbDoxRZxNWiR",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/c932b53e6f13a45f32bc357303c56eb52ecc28fb",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/706834f25e3b96ddc4643277e11333f0a8ca16c0",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/417cdd139d97eb8af3afe3f66fa14af1da331eec",
+                "width": 64
+              }
+            ],
+            "name": "Kamikaze",
+            "release_date": "2018-08-31",
+            "release_date_precision": "day",
+            "total_tracks": 13,
+            "type": "album",
+            "uri": "spotify:album:3HNnxK7NgLXbDoxRZxNWiR"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+              },
+              "href": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+              "id": "7dGJo4pcD2V6oG8kP0tJRR",
+              "name": "Eminem",
+              "type": "artist",
+              "uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 337941,
+          "explicit": true,
+          "external_ids": {
+            "isrc": "USUM71813329"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/2jt2WxXMCD4zjACthkJQVE"
+          },
+          "href": "https://api.spotify.com/v1/tracks/2jt2WxXMCD4zjACthkJQVE",
+          "id": "2jt2WxXMCD4zjACthkJQVE",
+          "is_local": false,
+          "is_playable": true,
+          "name": "The Ringer",
+          "popularity": 78,
+          "preview_url": null,
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:2jt2WxXMCD4zjACthkJQVE"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+                },
+                "href": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+                "id": "7dGJo4pcD2V6oG8kP0tJRR",
+                "name": "Eminem",
+                "type": "artist",
+                "uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/5pJBqddqlkBbGKQvljZIms"
+            },
+            "href": "https://api.spotify.com/v1/albums/5pJBqddqlkBbGKQvljZIms",
+            "id": "5pJBqddqlkBbGKQvljZIms",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/c680464f5a55f48946e1319a2fdddaa4492417f0",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/05ec216271c1312676839cc801021003294d1ca2",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/a1bd86aae780e9bdf27ec724689bc2f8f2e0bb6d",
+                "width": 64
+              }
+            ],
+            "name": "Kamikaze",
+            "release_date": "2018-08-31",
+            "release_date_precision": "day",
+            "total_tracks": 13,
+            "type": "album",
+            "uri": "spotify:album:5pJBqddqlkBbGKQvljZIms"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR"
+              },
+              "href": "https://api.spotify.com/v1/artists/7dGJo4pcD2V6oG8kP0tJRR",
+              "id": "7dGJo4pcD2V6oG8kP0tJRR",
+              "name": "Eminem",
+              "type": "artist",
+              "uri": "spotify:artist:7dGJo4pcD2V6oG8kP0tJRR"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 337941,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "USUM71813347"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/6y8S81PdWonn8j9PmahZMf"
+          },
+          "href": "https://api.spotify.com/v1/tracks/6y8S81PdWonn8j9PmahZMf",
+          "id": "6y8S81PdWonn8j9PmahZMf",
+          "is_local": false,
+          "is_playable": true,
+          "name": "The Ringer",
+          "popularity": 52,
+          "preview_url": null,
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:6y8S81PdWonn8j9PmahZMf"
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/4hwJwkgsufeilLXS1ZfJqq"
+                },
+                "href": "https://api.spotify.com/v1/artists/4hwJwkgsufeilLXS1ZfJqq",
+                "id": "4hwJwkgsufeilLXS1ZfJqq",
+                "name": "The Unlikely Candidates",
+                "type": "artist",
+                "uri": "spotify:artist:4hwJwkgsufeilLXS1ZfJqq"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/1Gbja1LJgJAQkLXlQdMiTF"
+            },
+            "href": "https://api.spotify.com/v1/albums/1Gbja1LJgJAQkLXlQdMiTF",
+            "id": "1Gbja1LJgJAQkLXlQdMiTF",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/b6c504ea9d012a03a50f4baf300037b225dc14d0",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/02bc13a12ff9d795d9a9905fc08e25871359aa57",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/64ddf9ef21b7eb25979ae6480d2944222087b7a4",
+                "width": 64
+              }
+            ],
+            "name": "Bed of Liars",
+            "release_date": "2017-02-17",
+            "release_date_precision": "day",
+            "total_tracks": 6,
+            "type": "album",
+            "uri": "spotify:album:1Gbja1LJgJAQkLXlQdMiTF"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4hwJwkgsufeilLXS1ZfJqq"
+              },
+              "href": "https://api.spotify.com/v1/artists/4hwJwkgsufeilLXS1ZfJqq",
+              "id": "4hwJwkgsufeilLXS1ZfJqq",
+              "name": "The Unlikely Candidates",
+              "type": "artist",
+              "uri": "spotify:artist:4hwJwkgsufeilLXS1ZfJqq"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 178671,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "US4E41741901"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/5CnbFX4g6oSZRIxxzWQqSh"
+          },
+          "href": "https://api.spotify.com/v1/tracks/5CnbFX4g6oSZRIxxzWQqSh",
+          "id": "5CnbFX4g6oSZRIxxzWQqSh",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Ringer",
+          "popularity": 49,
+          "preview_url": "https://p.scdn.co/mp3-preview/24f37f3214a502bdf4b102936697b1720047a6d9?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 2,
+          "type": "track",
+          "uri": "spotify:track:5CnbFX4g6oSZRIxxzWQqSh"
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/1L0pwxF6zglm74nG2gBWw5"
+                },
+                "href": "https://api.spotify.com/v1/artists/1L0pwxF6zglm74nG2gBWw5",
+                "id": "1L0pwxF6zglm74nG2gBWw5",
+                "name": "Colyer",
+                "type": "artist",
+                "uri": "spotify:artist:1L0pwxF6zglm74nG2gBWw5"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0DY6HE8bHNnlzFctKDeHQu"
+            },
+            "href": "https://api.spotify.com/v1/albums/0DY6HE8bHNnlzFctKDeHQu",
+            "id": "0DY6HE8bHNnlzFctKDeHQu",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/f3eb01b04583664bf16ef0f8339a4b4a2a02e187",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/b3487028fa85d3af4f3bfb6a7098d6303558eefb",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/2bdb701fe45008d50a440360163f60b72c4dcdc9",
+                "width": 64
+              }
+            ],
+            "name": "The Ringer",
+            "release_date": "2017-08-25",
+            "release_date_precision": "day",
+            "total_tracks": 1,
+            "type": "album",
+            "uri": "spotify:album:0DY6HE8bHNnlzFctKDeHQu"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1L0pwxF6zglm74nG2gBWw5"
+              },
+              "href": "https://api.spotify.com/v1/artists/1L0pwxF6zglm74nG2gBWw5",
+              "id": "1L0pwxF6zglm74nG2gBWw5",
+              "name": "Colyer",
+              "type": "artist",
+              "uri": "spotify:artist:1L0pwxF6zglm74nG2gBWw5"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 165276,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "GBKPL1785772"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1EaIXfcd0ucrZVGGfXraRu"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1EaIXfcd0ucrZVGGfXraRu",
+          "id": "1EaIXfcd0ucrZVGGfXraRu",
+          "is_local": false,
+          "is_playable": true,
+          "name": "The Ringer",
+          "popularity": 21,
+          "preview_url": "https://p.scdn.co/mp3-preview/5d06a4030ed259916893c0b067a48a34315d102c?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:1EaIXfcd0ucrZVGGfXraRu"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/4XUJ1FQti6aKrUrZTCBFKz"
+                },
+                "href": "https://api.spotify.com/v1/artists/4XUJ1FQti6aKrUrZTCBFKz",
+                "id": "4XUJ1FQti6aKrUrZTCBFKz",
+                "name": "Cheats",
+                "type": "artist",
+                "uri": "spotify:artist:4XUJ1FQti6aKrUrZTCBFKz"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/4syrgMPfhuA65cjB33THKl"
+            },
+            "href": "https://api.spotify.com/v1/albums/4syrgMPfhuA65cjB33THKl",
+            "id": "4syrgMPfhuA65cjB33THKl",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/86477b01b1cc82d88572683f50aabb4b0566651e",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/3c1710cd9ab9c03026d49598f2b48fd99dbdefdc",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/70bc1e8cca0f108d573ac879550f5a5112cb1f7c",
+                "width": 64
+              }
+            ],
+            "name": "Before the Babies",
+            "release_date": "2017-12-08",
+            "release_date_precision": "day",
+            "total_tracks": 9,
+            "type": "album",
+            "uri": "spotify:album:4syrgMPfhuA65cjB33THKl"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4XUJ1FQti6aKrUrZTCBFKz"
+              },
+              "href": "https://api.spotify.com/v1/artists/4XUJ1FQti6aKrUrZTCBFKz",
+              "id": "4XUJ1FQti6aKrUrZTCBFKz",
+              "name": "Cheats",
+              "type": "artist",
+              "uri": "spotify:artist:4XUJ1FQti6aKrUrZTCBFKz"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 316434,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "FRX201649883"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/19c89IfJjh5JVkUgMDWpJx"
+          },
+          "href": "https://api.spotify.com/v1/tracks/19c89IfJjh5JVkUgMDWpJx",
+          "id": "19c89IfJjh5JVkUgMDWpJx",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Ringer",
+          "popularity": 24,
+          "preview_url": "https://p.scdn.co/mp3-preview/9101a08f3f1a857ecb70eec763e6beeec4ddcabd?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 5,
+          "type": "track",
+          "uri": "spotify:track:19c89IfJjh5JVkUgMDWpJx"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/7tBWSllackWDWvzMzkdfPl"
+                },
+                "href": "https://api.spotify.com/v1/artists/7tBWSllackWDWvzMzkdfPl",
+                "id": "7tBWSllackWDWvzMzkdfPl",
+                "name": "The Larimers",
+                "type": "artist",
+                "uri": "spotify:artist:7tBWSllackWDWvzMzkdfPl"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2IQSrKfHROPqa254ocjrAp"
+            },
+            "href": "https://api.spotify.com/v1/albums/2IQSrKfHROPqa254ocjrAp",
+            "id": "2IQSrKfHROPqa254ocjrAp",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/e9ea3c42ba28d7a360c5599c50b48494a0a06cb1",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/b0780dedfe79c0dd9c7a6562c454b819108970e4",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/3b256c397a3180a6836c600c2755aa7a8353384a",
+                "width": 64
+              }
+            ],
+            "name": "Assume I'll Be Fine",
+            "release_date": "2017-10-14",
+            "release_date_precision": "day",
+            "total_tracks": 10,
+            "type": "album",
+            "uri": "spotify:album:2IQSrKfHROPqa254ocjrAp"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7tBWSllackWDWvzMzkdfPl"
+              },
+              "href": "https://api.spotify.com/v1/artists/7tBWSllackWDWvzMzkdfPl",
+              "id": "7tBWSllackWDWvzMzkdfPl",
+              "name": "The Larimers",
+              "type": "artist",
+              "uri": "spotify:artist:7tBWSllackWDWvzMzkdfPl"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 230213,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "QZ9Y21737014"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1NCSpZSPu6KW84oEUAAWvj"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1NCSpZSPu6KW84oEUAAWvj",
+          "id": "1NCSpZSPu6KW84oEUAAWvj",
+          "is_local": false,
+          "is_playable": true,
+          "name": "The Ringer",
+          "popularity": 13,
+          "preview_url": "https://p.scdn.co/mp3-preview/512ce3b26676ccfa4d052a792d1affdea6432679?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 10,
+          "type": "track",
+          "uri": "spotify:track:1NCSpZSPu6KW84oEUAAWvj"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/2wqmq73FxLDJsM2TxIEiqi"
+                },
+                "href": "https://api.spotify.com/v1/artists/2wqmq73FxLDJsM2TxIEiqi",
+                "id": "2wqmq73FxLDJsM2TxIEiqi",
+                "name": "The Whiskey Gentry",
+                "type": "artist",
+                "uri": "spotify:artist:2wqmq73FxLDJsM2TxIEiqi"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2BAv3kF9WZY4KasAvMVeHo"
+            },
+            "href": "https://api.spotify.com/v1/albums/2BAv3kF9WZY4KasAvMVeHo",
+            "id": "2BAv3kF9WZY4KasAvMVeHo",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/275a7f61e9a7cd0bf8a2c167b90e26cb1257bc5e",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/274034cd13158a896cf9248b428e123bf085e37c",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/0465697a80121a6dd3fcbf092ab5f524ef10c554",
+                "width": 64
+              }
+            ],
+            "name": "Dead Ringer",
+            "release_date": "2017-04-07",
+            "release_date_precision": "day",
+            "total_tracks": 12,
+            "type": "album",
+            "uri": "spotify:album:2BAv3kF9WZY4KasAvMVeHo"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2wqmq73FxLDJsM2TxIEiqi"
+              },
+              "href": "https://api.spotify.com/v1/artists/2wqmq73FxLDJsM2TxIEiqi",
+              "id": "2wqmq73FxLDJsM2TxIEiqi",
+              "name": "The Whiskey Gentry",
+              "type": "artist",
+              "uri": "spotify:artist:2wqmq73FxLDJsM2TxIEiqi"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 250333,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "USA4D1715003"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/2xD4DFnrn91xLuy4M7Yxt0"
+          },
+          "href": "https://api.spotify.com/v1/tracks/2xD4DFnrn91xLuy4M7Yxt0",
+          "id": "2xD4DFnrn91xLuy4M7Yxt0",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Looking for Trouble",
+          "popularity": 21,
+          "preview_url": "https://p.scdn.co/mp3-preview/fae2f6e194b93208ec7d04c590dc51647fa8492c?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 3,
+          "type": "track",
+          "uri": "spotify:track:2xD4DFnrn91xLuy4M7Yxt0"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/1xgA0hENxpykh3AxlMBjlT"
+                },
+                "href": "https://api.spotify.com/v1/artists/1xgA0hENxpykh3AxlMBjlT",
+                "id": "1xgA0hENxpykh3AxlMBjlT",
+                "name": "Catch 22",
+                "type": "artist",
+                "uri": "spotify:artist:1xgA0hENxpykh3AxlMBjlT"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/5zSnLAolG4aeZ27UPFagHM"
+            },
+            "href": "https://api.spotify.com/v1/albums/5zSnLAolG4aeZ27UPFagHM",
+            "id": "5zSnLAolG4aeZ27UPFagHM",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/4a8dc97c3e90f3fab19412d5b39fdf3d81bcbeeb",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/5df510346b988daacbf7981372e5b5f971006c4d",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/e723480e51acad54958b6bdc36d3baef79d037a3",
+                "width": 64
+              }
+            ],
+            "name": "Washed Up and Through the Ringer",
+            "release_date": "2001",
+            "release_date_precision": "year",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5zSnLAolG4aeZ27UPFagHM"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1xgA0hENxpykh3AxlMBjlT"
+              },
+              "href": "https://api.spotify.com/v1/artists/1xgA0hENxpykh3AxlMBjlT",
+              "id": "1xgA0hENxpykh3AxlMBjlT",
+              "name": "Catch 22",
+              "type": "artist",
+              "uri": "spotify:artist:1xgA0hENxpykh3AxlMBjlT"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 135946,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "USVIC0117205"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/66AJcv7YvAyx5V8s6eKkn0"
+          },
+          "href": "https://api.spotify.com/v1/tracks/66AJcv7YvAyx5V8s6eKkn0",
+          "id": "66AJcv7YvAyx5V8s6eKkn0",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Leaving",
+          "popularity": 24,
+          "preview_url": "https://p.scdn.co/mp3-preview/d8000970628fc531c82653836022c81872fcf4ca?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 5,
+          "type": "track",
+          "uri": "spotify:track:66AJcv7YvAyx5V8s6eKkn0"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0PE2iCCCk3K8wFgHU1UZuX"
+                },
+                "href": "https://api.spotify.com/v1/artists/0PE2iCCCk3K8wFgHU1UZuX",
+                "id": "0PE2iCCCk3K8wFgHU1UZuX",
+                "name": "Tomasz Kowalczyk",
+                "type": "artist",
+                "uri": "spotify:artist:0PE2iCCCk3K8wFgHU1UZuX"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0Pq0wsCfSoMzslGr4QmRq5"
+            },
+            "href": "https://api.spotify.com/v1/albums/0Pq0wsCfSoMzslGr4QmRq5",
+            "id": "0Pq0wsCfSoMzslGr4QmRq5",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/f9f0449cb2b434c1dfbdef1060f3f52d41d18220",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/6e31436170d0c065f23bc2b59989ec70cb5f884d",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/b1e795f95b9d06ba0b2be58da1c7c2cb672a7265",
+                "width": 64
+              }
+            ],
+            "name": "Phantasmagoria",
+            "release_date": "2018-08-20",
+            "release_date_precision": "day",
+            "total_tracks": 9,
+            "type": "album",
+            "uri": "spotify:album:0Pq0wsCfSoMzslGr4QmRq5"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0PE2iCCCk3K8wFgHU1UZuX"
+              },
+              "href": "https://api.spotify.com/v1/artists/0PE2iCCCk3K8wFgHU1UZuX",
+              "id": "0PE2iCCCk3K8wFgHU1UZuX",
+              "name": "Tomasz Kowalczyk",
+              "type": "artist",
+              "uri": "spotify:artist:0PE2iCCCk3K8wFgHU1UZuX"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 175094,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "NLPM11827151"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/2sRm8Qe4jR0mjJG1CgS2iM"
+          },
+          "href": "https://api.spotify.com/v1/tracks/2sRm8Qe4jR0mjJG1CgS2iM",
+          "id": "2sRm8Qe4jR0mjJG1CgS2iM",
+          "is_local": false,
+          "is_playable": true,
+          "name": "The Question for the Ringer",
+          "popularity": 0,
+          "preview_url": "https://p.scdn.co/mp3-preview/db048b14d558dea3876b1ea2ce2e1449f757d680?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 4,
+          "type": "track",
+          "uri": "spotify:track:2sRm8Qe4jR0mjJG1CgS2iM"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/1xgA0hENxpykh3AxlMBjlT"
+                },
+                "href": "https://api.spotify.com/v1/artists/1xgA0hENxpykh3AxlMBjlT",
+                "id": "1xgA0hENxpykh3AxlMBjlT",
+                "name": "Catch 22",
+                "type": "artist",
+                "uri": "spotify:artist:1xgA0hENxpykh3AxlMBjlT"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/5zSnLAolG4aeZ27UPFagHM"
+            },
+            "href": "https://api.spotify.com/v1/albums/5zSnLAolG4aeZ27UPFagHM",
+            "id": "5zSnLAolG4aeZ27UPFagHM",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/4a8dc97c3e90f3fab19412d5b39fdf3d81bcbeeb",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/5df510346b988daacbf7981372e5b5f971006c4d",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/e723480e51acad54958b6bdc36d3baef79d037a3",
+                "width": 64
+              }
+            ],
+            "name": "Washed Up and Through the Ringer",
+            "release_date": "2001",
+            "release_date_precision": "year",
+            "total_tracks": 18,
+            "type": "album",
+            "uri": "spotify:album:5zSnLAolG4aeZ27UPFagHM"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1xgA0hENxpykh3AxlMBjlT"
+              },
+              "href": "https://api.spotify.com/v1/artists/1xgA0hENxpykh3AxlMBjlT",
+              "id": "1xgA0hENxpykh3AxlMBjlT",
+              "name": "Catch 22",
+              "type": "artist",
+              "uri": "spotify:artist:1xgA0hENxpykh3AxlMBjlT"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 131226,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "USVIC0117207"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/4wpuHehFEEpWAlkw3vjH0s"
+          },
+          "href": "https://api.spotify.com/v1/tracks/4wpuHehFEEpWAlkw3vjH0s",
+          "id": "4wpuHehFEEpWAlkw3vjH0s",
+          "is_local": false,
+          "is_playable": true,
+          "name": "American Pie",
+          "popularity": 22,
+          "preview_url": "https://p.scdn.co/mp3-preview/9e6b79ec49bc36115884c9bf09c156e70a777c6a?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 7,
+          "type": "track",
+          "uri": "spotify:track:4wpuHehFEEpWAlkw3vjH0s"
+        }
+      ],
+      "limit": 10,
+      "next": "https://api.spotify.com/v1/search?query=the+ringer&type=track&market=US&offset=10&limit=10",
+      "offset": 0,
+      "previous": null,
+      "total": 480
+    }
+  }

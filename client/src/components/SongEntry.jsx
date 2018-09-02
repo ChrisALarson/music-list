@@ -1,11 +1,11 @@
 import React from 'react';
 
-const SongEntry = () => {
+const SongEntry = ({ songId, addToFavorites, addToPlays }) => {
   return (
-    <div>
+    <div data-songid={songId}>
       Song!
-      <button>Add to favorites</button>
-      <button>Add to playlist</button>
+      <button data-songid={songId} onClick={addToFavorites}>Add to favorites</button>
+      <button data-songid={songId} onClick={addToPlays}>Add to playlist</button>
     </div>
   );
 };
