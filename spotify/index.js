@@ -1,7 +1,6 @@
 const config = require('../config.js');
 const request = require('request');
 
-// search 
 const searchForSong = (songName, callbackToServer) => {
   const uri = `https://api.spotify.com/v1/search?q=${songName}&type=track&market=US&limit=10&offset=0`;
   const encodedUri = encodeURI(uri);
@@ -18,7 +17,6 @@ const searchForSong = (songName, callbackToServer) => {
   const callback = (error, response, body) => {
     if (error) return callbackToServer(error, null);
     let searchResults = [];
-    console.log(body);
     let tracks = JSON.parse(body).tracks.items;
     tracks.forEach(track => {
       searchResults.push({
@@ -38,5 +36,3 @@ const searchForSong = (songName, callbackToServer) => {
 };
 
 module.exports = { searchForSong };
-
-// add to playlist (?)

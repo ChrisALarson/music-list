@@ -39,7 +39,4 @@ app.post('/search', (req, res) => {
   });
 });
 
-// post to favorites (?)
-// post to playlist (?)
-
 app.listen(PORT, () => console.log(`app listening on port ${PORT}`));

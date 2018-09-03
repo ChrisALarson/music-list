@@ -83,7 +83,6 @@ class App extends React.Component {
     })
     .then(response => response.json())
     .then(data => {
-      console.log('DATA IS ..', data);
       this.setState({
         favorites: data.favorites,
         plays: data.plays,
@@ -100,10 +99,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <NavBar onSearch={this.onSearch} />
-        <FavoriteList favorites={this.state.favorites} addToFavorites={this.addToFavorites} addToPlays={this.addToPlays} />
-        <ResultList results={this.state.results} addToFavorites={this.addToFavorites} addToPlays={this.addToPlays} />
-        <PlayList plays={this.state.plays} addToFavorites={this.addToFavorites} addToPlays={this.addToPlays} />
+        <NavBar id="nav" onSearch={this.onSearch} />
+        <div id="container">
+          <FavoriteList id="favorites" favorites={this.state.favorites} addToFavorites={this.addToFavorites} addToPlays={this.addToPlays} />
+          <ResultList id="results" results={this.state.results} addToFavorites={this.addToFavorites} addToPlays={this.addToPlays} />
+          <PlayList id="plays" plays={this.state.plays} addToFavorites={this.addToFavorites} addToPlays={this.addToPlays} />
+        </div>
       </div>
     );
   }

@@ -5,7 +5,7 @@ const DB_URL = process.env.DB_CONNECTION_STRING || config.DB_CONNECTION_STRING;
 
 const db = mysql.createConnection(DB_URL);
 
-
+// TODO: clean up nested callback helL!
 const getUserData = (username, callback) => {
   const query = `SELECT * FROM USERS WHERE NAME=? LIMIT 1`;
   db.query(query, [username], (error, results, fields) => {
@@ -110,37 +110,6 @@ const addUserPlay = (userId, songId, callback) => {
     callback(null, results);
   });
 };
-
-// getSongs(['0OosghwiloKlyvGgWhal6U', '6hLY3Tz1Xt5kBuKNDTs4ib'], (error, songs) => {
-//   console.log(error);
-//   console.log(songs);
-// });
-// getUserPlays(1, (error, results) => {
-//   console.log('plays for user 1..\n', results);
-// });
-
-// getUserData('Chris', (error, results) => {
-//   console.log(results);
-// });
-
-// getUserFavorites(1, (error, results) => {
-//   console.log('favorites...\n', results);
-// });
-// addSongs(results, (error, results) => {
-//   console.log('errror..', error);
-//   console.log('results..', results);
-// });
-
-// addUserFavorite(1, '2sRm8Qe4jR0mjJG1CgS2iM', (error, results) => {
-//   console.log('errror..', error);
-//   console.log('results..', results);  
-// });
-
-// addUserPlay(1, '2sRm8Qe4jR0mjJG1CgS2iM', (error, results) => {
-//   console.log('errror..', error);
-//   console.log('results..', results);  
-// });
-
 
 module.exports = { getUserData, getUserFavorites, getUserPlays, getSongs, addSongs, addUserFavorite, addUserPlay };
 
