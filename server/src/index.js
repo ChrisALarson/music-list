@@ -11,21 +11,22 @@ app.use(express.json());
 app.get('/user/:name', (req, res) => {
   db.getUserData(req.params.name, (error, userData) => {
     if (error) return console.log('Error in GET /user/:name.. userData', error);
-    const userId = userData.userId;
-    db.getUserFavorites(userId, (error, userFavorites) => {
-      if (error) return console.log('Error in GET /user/:name.. userFavorites', error);
-      db.getUserPlays(userId, (error, userPlays) => {
-        if (error) return console.log('Error in GET /user/:name.. userPlays', error);
-          let body = {
-            userId,
-            userFavorites,
-            userPlays
-          };
-          res.status(200).json(body);
-      });
-    });
+    res.status(200).json(userData);
   });
+});
 
+app.post('/users/:userId/favorites/:songId', (req, res) => {
+  db.addUserFavorite(req.params.userId, req.params.songId, (error, results) => {
+    if (error) return console.log('Error in POST /users/:userId/favorites/:songId', error);
+    res.status(201).json(results);
+  });
+});
+
+app.post('/users/:userId/plays/:songId', (req, res) => {
+  db.addUserPlay(req.params.userId, req.params.songId, (error, results) => {
+    if (error) return console.log('Error in POST /users/:userId/plays/:songId', error);
+    res.status(201).json(results);
+  });
 });
 
 app.post('/search', (req, res) => {
@@ -33,7 +34,7 @@ app.post('/search', (req, res) => {
     if (error) return console.log('Error from Spotify in POST /search route: ', error);
     db.addSongs(searchResults, (error, addSongsResults) => {
       if (error) return console.log('Error inserting to DB in POST /search route: ', error);
-      res.status(201).json(addSongsResults);
+      res.status(201).json(searchResults);
     });
   });
 });
