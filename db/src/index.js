@@ -131,7 +131,31 @@ const getUserData = (username, callback) => {
   const query = `SELECT * FROM USERS WHERE NAME=? LIMIT 1`;
   db.query(query, [username], (error, results, fields) => {
     if (error) return callback(error, null);
-    callback(null, results);
+    callback(null, { userId: results[0].ID });
+  });
+};
+
+const getUserPlays = (userId, callback) => {
+  const query = `SELECT * FROM USERS_PLAYS WHERE USER_ID=?`;
+  db.query(query, [userId], (error, results, fields) => {
+    if (error) return callback(error, null);
+    const plays = [];
+    results.forEach(song => {
+      plays.push(song.SONG_ID);
+    });
+    callback(null, plays);
+  });
+};
+
+const getUserFavorites = (userId, callback) => {
+  const query = `SELECT * FROM USERS_FAVORITES WHERE USER_ID=?`;
+  db.query(query, [userId], (error, results, fields) => {
+    if (error) return callback(error, null);
+    const favorites = [];
+    results.forEach(song => {
+      favorites.push(song.SONG_ID);
+    });
+    callback(null, favorites);
   });
 };
 
@@ -165,10 +189,17 @@ const addUserPlay = (userId, songId, callback) => {
   });
 };
 
-// getUserData('John', (error, results) => {
+// getUserPlays(1, (error, results) => {
+//   console.log('plays for user 1..\n', results);
+// });
+
+// getUserData('Chris', (error, results) => {
 //   console.log(results);
 // });
 
+// getUserFavorites(1, (error, results) => {
+//   console.log('favorites...\n', results);
+// });
 // addSongs(results, (error, results) => {
 //   console.log('errror..', error);
 //   console.log('results..', results);
@@ -183,5 +214,7 @@ const addUserPlay = (userId, songId, callback) => {
 //   console.log('errror..', error);
 //   console.log('results..', results);  
 // });
-module.exports = { getUserData, addSongs, addUserFavorite, addUserPlay };
+
+
+module.exports = { getUserData, getUserFavorites, getUserPlays, addSongs, addUserFavorite, addUserPlay };
 

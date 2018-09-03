@@ -121,30 +121,9 @@ const results = [{
 
 
 const chris = {
-  favorites: [{
-    name: 'Lucky You',
-    id: '6y8S81PdasdfasWonn8j9PmahZMf',
-    artist: 'Eminem',
-    album: 'Kamikaze',
-    albumImageURL:
-      'https://i.scdn.co/image/a1bd86aae780e9bdf27ec724689bc2f8f2e0bb6d',
-    popularity: 52,
-    explicit: true,
-    url: 'https://open.spotify.com/track/6y8S81PdWonn8j9PmahZMf'
-  }],
-  plays: [{
-    name: 'Stepping Stones',
-    id: '6y8S81PdWoasdfasdfnn8j9PmahZMf',
-    artist: 'Eminem',
-    album: 'Kamikaze',
-    albumImageURL:
-      'https://i.scdn.co/image/a1bd86aae780e9bdf27ec724689bc2f8f2e0bb6d',
-    popularity: 52,
-    explicit: true,
-    url: 'https://open.spotify.com/track/6y8S81PdWonn8j9PmahZMf'
-  }]
+  favorites: ['6y8S81PdasdfasWonn8j9PmahZMf'],
+  plays: ['6y8S81PdWoasdfasdfnn8j9PmahZMf']
 };
-
 
 
 
@@ -157,7 +136,9 @@ class App extends React.Component {
         favorites: chris.favorites,
         plays: chris.plays
       },
-      results: results
+      favorites: [],
+      plays: [],
+      results: []
     };
     this.addToFavorites = this.addToFavorites.bind(this);
     this.addToPlays = this.addToPlays.bind(this);
