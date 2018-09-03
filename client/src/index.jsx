@@ -187,14 +187,15 @@ class App extends React.Component {
   }
 
   addToFavorites(event) {
-    const newFavorites = this.state.userData.favorites.concat([event.target.dataset.songid]);
-    const plays = this.state.userData.plays;
-    this.setState({
-      userData: {
-        favorites: newFavorites,
-        plays: plays
-      }
-    });
+    console.log(event.target);
+    // const newFavorites = this.state.userData.favorites.concat([event.target.dataset.songid]);
+    // const plays = this.state.userData.plays;
+    // this.setState({
+    //   userData: {
+    //     favorites: newFavorites,
+    //     plays: plays
+    //   }
+    // });
   }
 
   addToPlays(event) {
